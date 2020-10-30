@@ -5,4 +5,4 @@ loadGenerationRatio = .7;
 loadShedConstant = .97;
 capacityEstimationError = .02;
 
-S_FindingStateSpace_ANN_dataset_function(topology, iterations, initialFailures, loadGenerationRatio, loadShedConstant, capacityEstimationError);
+States=S_FindingStateSpace_ANN_dataset_function(topology, iterations, initialFailures, loadGenerationRatio, loadShedConstant, capacityEstimationError);
