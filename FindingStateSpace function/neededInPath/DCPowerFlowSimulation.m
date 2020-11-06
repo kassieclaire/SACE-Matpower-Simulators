@@ -132,8 +132,10 @@ while(moreFailures)
         end
         States(StateCounter,1)=sum(ListOfFailures); % This state has only one total failure in the topology
         States(StateCounter,2)=Cap; % Total Capacity of failed ones
-        States(StateCounter,3)=-1; % Amount of load shed happend because of the failure in previous step (To Be assigned)
-        States(StateCounter,4)=-1; % Amount of load shed in comparing to previous step
+        %Not used
+        %States(StateCounter,3)=-1; % Amount of load shed happend because of the failure in previous step (To Be assigned)
+        %States(StateCounter,4)=-1; % Amount of load shed in comparing to previous step
+        
         States(StateCounter,5)=Demand; % Initial load(Demand) over the system
         States(StateCounter,6)=Deg; % degree of the failed link
         States(StateCounter,7)=Hop; % Average hop distance of failures
